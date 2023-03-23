@@ -1,23 +1,6 @@
 # Modern JavaScript Cheatsheet
 
-![Modern JavaScript cheatsheet](https://i.imgur.com/aexPxMb.png)
-<sub>Image Credits: [Ahmad Awais ⚡️](https://github.com/ahmadawais)</sub>
-
-> If you like this content, you can ping me or follow me on Twitter :+1:
-
-[![Tweet for help](https://img.shields.io/twitter/follow/mbeaudru?label=Tweet%20%40mbeaudru&style=social)](https://twitter.com/mbeaudru/)
-
 ## Introduction
-
-### Motivation
-
-This document is a cheatsheet for JavaScript you will frequently encounter in modern projects and most contemporary sample code.
-
-This guide is not intended to teach you JavaScript from the ground up, but to help developers with basic knowledge who may struggle to get familiar with modern codebases (or let's say to learn React for instance) because of the JavaScript concepts used.
-
-Besides, I will sometimes provide personal tips that may be debatable but will take care to mention that it's a personal recommendation when I do so.
-
-> **Note:** Most of the concepts introduced here are coming from a JavaScript language update (ES2015, often called ES6). You can find new features added by this update [here](http://es6-features.org); it's very well done.
 
 ### Complementary Resources
 
@@ -1338,16 +1321,3 @@ let c = [2] == true // c is false since [2].toString() give "2" back.
 The context in which values and expressions are "visible," or can be referenced. If a variable or other expression is not "in the current scope," then it is unavailable for use.
 
 Source: [MDN](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
-
-### <a name="mutation_def"></a> Variable mutation
-
-A variable is said to have been mutated when its initial value has changed afterward.
-
-```js
-var myArray = [];
-myArray.push("firstEl") // myArray is being mutated
-```
-
-A variable is said to be *immutable* if it can't be mutated.
-
-[Check MDN Mutable article](https://developer.mozilla.org/en-US/docs/Glossary/Mutable) for more details.
